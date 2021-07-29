@@ -76,6 +76,18 @@ body {
     max-width: 30%;
 }
 
+@media (max-width: 992px) {
+    .main {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        max-width: 90%;
+    }
+}
+
 .main:hover {
     background-color: #0066FF;
     transition: 0.5s;
